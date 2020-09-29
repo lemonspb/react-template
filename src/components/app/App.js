@@ -4,6 +4,7 @@ import "./styles.css";
 
 class App extends Component {
   render() {
+    console.log("dsfdsfsdfd");
     return (
       <div>
         <Container maxWidth="sm">
