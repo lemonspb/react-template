@@ -7,7 +7,9 @@ class App extends Component {
     return (
       <div>
         <Container maxWidth="sm">
-          <h1>My Reasdfdsfdct App!</h1><Button variant="contained" color="primary">Hello World
+          <h1>My Reasdfdsfdct App!</h1>
+          <Button variant="contained" color="primary">
+            Hello World
           </Button>
         </Container>
       </div>
