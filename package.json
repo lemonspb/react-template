@@ -13,14 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
@@ -54,7 +51,7 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx,css,md}": ["prettier --write",
-      "eslint --fix"
+      "eslint --quiet"
     ]
   }
 }
